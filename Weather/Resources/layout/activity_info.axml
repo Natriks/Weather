@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:text="Town"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textAlignment="center"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:textSize="35dp"
+		android:id="@+id/textViewName" />
+	<TextView
+		android:text="Main"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textAlignment="center"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:textSize="20dp"
+		android:id="@+id/textViewMain" />
+	<TextView
+		android:text="Description"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textAlignment="center"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:textSize="20dp"
+		android:id="@+id/textViewDesc" />
+	<TextView
+		android:text="Temp"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textAlignment="center"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:textSize="20dp"
+		android:id="@+id/textViewTemp" />
+	<TextView
+		android:text="Min_temp"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textAlignment="center"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:textSize="20dp"
+		android:id="@+id/textViewMin_temp" />
+	<TextView
+		android:text="Max_temp"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textAlignment="center"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:textSize="20dp"
+		android:id="@+id/textViewMax_temp" />
+	<TextView
+		android:text="Humidity"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textAlignment="center"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:textSize="20dp"
+		android:id="@+id/textViewHumidity" />
+	<TextView
+		android:text="Pressure"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textAlignment="center"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:textSize="20dp"
+		android:id="@+id/textViewPressure" />
+	<TextView
+		android:text="Ground Level"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textAlignment="center"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:textSize="20dp"
+		android:id="@+id/textViewGroundLevel" />
+	<TextView
+		android:text="SeaLevel"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textAlignment="center"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:textSize="20dp"
+		android:id="@+id/textViewSeaLevel" />
+	<HorizontalScrollView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_marginTop="2dp"
+		android:layout_width="match_parent"
+		android:layout_height="100.0dp"
+		android:id="@+id/horizontalScrollView1">
+		<LinearLayout
+            android:id="@+id/horizontalLinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" />
+	</HorizontalScrollView>
+
+
+</LinearLayout>
